@@ -12,6 +12,11 @@
 		320DD20D21D9E85E000AB48F /* Lunaror.h in Headers */ = {isa = PBXBuildFile; fileRef = 320DD1FF21D9E85E000AB48F /* Lunaror.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		320DD21921D9F55C000AB48F /* LunarorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320DD21821D9F55C000AB48F /* LunarorPicker.swift */; };
 		320DD21A21D9FAE5000AB48F /* LunarorPicker.swift in Headers */ = {isa = PBXBuildFile; fileRef = 320DD21821D9F55C000AB48F /* LunarorPicker.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		320DD21C21DA09D0000AB48F /* Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320DD21B21DA09D0000AB48F /* Configure.swift */; };
+		320DD21F21DA0DDE000AB48F /* LunarorPicker+Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320DD21E21DA0DDE000AB48F /* LunarorPicker+Setting.swift */; };
+		320DD22321E0A793000AB48F /* LunarorPicker+PickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320DD22221E0A793000AB48F /* LunarorPicker+PickerDelegate.swift */; };
+		320DD22521E0D657000AB48F /* LunarorPicker+Transfrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320DD22421E0D657000AB48F /* LunarorPicker+Transfrom.swift */; };
+		68BE312BD82030E9A5EACC67 /* libPods-Lunaror.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C25DF1EC0CC43E95B0CF18 /* libPods-Lunaror.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,13 @@
 		320DD20A21D9E85E000AB48F /* LunarorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarorTests.swift; sourceTree = "<group>"; };
 		320DD20C21D9E85E000AB48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		320DD21821D9F55C000AB48F /* LunarorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarorPicker.swift; sourceTree = "<group>"; };
+		320DD21B21DA09D0000AB48F /* Configure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configure.swift; sourceTree = "<group>"; };
+		320DD21E21DA0DDE000AB48F /* LunarorPicker+Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LunarorPicker+Setting.swift"; sourceTree = "<group>"; };
+		320DD22221E0A793000AB48F /* LunarorPicker+PickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LunarorPicker+PickerDelegate.swift"; sourceTree = "<group>"; };
+		320DD22421E0D657000AB48F /* LunarorPicker+Transfrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LunarorPicker+Transfrom.swift"; sourceTree = "<group>"; };
+		727E99A59DACF77659CD4A2E /* Pods-Lunaror.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lunaror.release.xcconfig"; path = "../BFPower/Pods/Target Support Files/Pods-Lunaror/Pods-Lunaror.release.xcconfig"; sourceTree = "<group>"; };
+		A8C25DF1EC0CC43E95B0CF18 /* libPods-Lunaror.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lunaror.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D993AA57EC239F5E007C4797 /* Pods-Lunaror.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lunaror.debug.xcconfig"; path = "../BFPower/Pods/Target Support Files/Pods-Lunaror/Pods-Lunaror.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BE312BD82030E9A5EACC67 /* libPods-Lunaror.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,8 @@
 				320DD1FE21D9E85E000AB48F /* Lunaror */,
 				320DD20921D9E85E000AB48F /* LunarorTests */,
 				320DD1FD21D9E85E000AB48F /* Products */,
+				D5466BA2648532D1AE1B7275 /* Pods */,
+				AC668FD4946AB95BC391A06E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +92,10 @@
 				320DD1FF21D9E85E000AB48F /* Lunaror.h */,
 				320DD20021D9E85E000AB48F /* Info.plist */,
 				320DD21821D9F55C000AB48F /* LunarorPicker.swift */,
+				320DD21E21DA0DDE000AB48F /* LunarorPicker+Setting.swift */,
+				320DD22221E0A793000AB48F /* LunarorPicker+PickerDelegate.swift */,
+				320DD22421E0D657000AB48F /* LunarorPicker+Transfrom.swift */,
+				320DD21B21DA09D0000AB48F /* Configure.swift */,
 			);
 			path = Lunaror;
 			sourceTree = "<group>";
@@ -88,6 +107,23 @@
 				320DD20C21D9E85E000AB48F /* Info.plist */,
 			);
 			path = LunarorTests;
+			sourceTree = "<group>";
+		};
+		AC668FD4946AB95BC391A06E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8C25DF1EC0CC43E95B0CF18 /* libPods-Lunaror.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5466BA2648532D1AE1B7275 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D993AA57EC239F5E007C4797 /* Pods-Lunaror.debug.xcconfig */,
+				727E99A59DACF77659CD4A2E /* Pods-Lunaror.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +145,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 320DD21021D9E85E000AB48F /* Build configuration list for PBXNativeTarget "Lunaror" */;
 			buildPhases = (
+				8F9C5309F13550E810876D34 /* [CP] Check Pods Manifest.lock */,
 				320DD1F721D9E85E000AB48F /* Headers */,
 				320DD1F821D9E85E000AB48F /* Sources */,
 				320DD1F921D9E85E000AB48F /* Frameworks */,
@@ -195,12 +232,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8F9C5309F13550E810876D34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lunaror-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		320DD1F821D9E85E000AB48F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320DD21C21DA09D0000AB48F /* Configure.swift in Sources */,
+				320DD22521E0D657000AB48F /* LunarorPicker+Transfrom.swift in Sources */,
 				320DD21921D9F55C000AB48F /* LunarorPicker.swift in Sources */,
+				320DD22321E0A793000AB48F /* LunarorPicker+PickerDelegate.swift in Sources */,
+				320DD21F21DA0DDE000AB48F /* LunarorPicker+Setting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -333,7 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -347,6 +409,7 @@
 		};
 		320DD21121D9E85E000AB48F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D993AA57EC239F5E007C4797 /* Pods-Lunaror.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -367,6 +430,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.orangebrush.Lunaror;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -375,6 +439,7 @@
 		};
 		320DD21221D9E85E000AB48F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727E99A59DACF77659CD4A2E /* Pods-Lunaror.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -395,6 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.orangebrush.Lunaror;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
